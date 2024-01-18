@@ -1,0 +1,35 @@
+:root {
+  --textarea-margin: 5px;
+  --form-margin: 10px;
+  --card-padding: 10px;
+}
+
+main {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.container-one{
+  padding: 5px 10px;
+}
+
+.vertical-divider {
+  height: 90vh;
+  width: 1px;
+  background-color: #C4C4C4;
+}
+
+.horizontal-divider{
+  height: 1px;
+  background-color: #C4C4C4;
+  margin-left: calc(var(--form-margin) + var(--textarea-margin));
+}
+
+.statistics{
+  margin: calc(var(--form-margin) + var(--textarea-margin));
+}

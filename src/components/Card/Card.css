@@ -1,0 +1,86 @@
+.card{
+    /*top: 51px;*/
+    /*left: 12px;*/
+    height: 83px;
+    position: relative;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #E8E8E8;
+    margin: 5px 0;
+    padding: var(--card-padding);
+}
+
+.card div>span:nth-of-type(1){
+    text-transform: uppercase;
+    font-family: 'Saira', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #333333;
+    line-height: 22.04px;
+    margin-right: 5px;
+}
+
+.card div>span:nth-of-type(2){
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    line-height: 16.41px;
+}
+
+.card div>span:nth-of-type(3){
+    display: block;
+    font-family: 'Saira', sans-serif;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12.59px;
+    color: #717171;
+    margin-bottom: 5px;
+}
+
+.card.available {
+    border: 2px solid #6FCF97;
+}
+
+.card.busy {
+    border: 2px solid #F2994A;
+}
+
+.card.unavailable {
+    border: 2px solid rgba(139, 0, 0, 0.5);
+    opacity: 0.5;
+}
+
+.price{
+    position: absolute;
+    bottom: 0;
+    right: var(--card-padding);
+    font-family: 'Saira', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 37.78px;
+}
+
+.card label{
+    position: relative;
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .status {
+    text-transform: uppercase;
+    font-family: 'Saira', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22.04px;
+    color: #333333;
+    margin-right: 5px;
+}
+
+.card div select{
+    background-color: transparent;
+    border: none;
+}

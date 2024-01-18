@@ -1,0 +1,26 @@
+.statistics h1{
+    padding: 0;
+    text-transform: uppercase;
+    font-family: 'Saira', sans-serif;
+    font-weight: 750;
+    font-size: 18px;
+    color: #000000;
+    line-height: 28.33px;
+}
+
+.statistics p {
+    font-family: 'Saira', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28.04px;
+
+}
+
+.statistics span{
+    margin: 0 5px 0 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #000000;
+}
